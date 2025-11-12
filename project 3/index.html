@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignCo - Responsive One-Page Website</title>
+    
+    <!-- Importing Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <nav class="main-nav container">
+            <a href="#home" class="logo">DesignCo</a>
+            
+            <!-- Hidden checkbox to control the menu state -->
+            <input type="checkbox" id="hamburger-toggle">
+            <label for="hamburger-toggle" class="hamburger-menu">☰</label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content with Sections -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Creative Digital Agency</h1>
+            <p>We build beautiful, responsive websites that drive results.</p>
+            <a href="#portfolio" class="btn">View Our Work</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of passionate designers and developers dedicated to creating exceptional digital experiences. Our focus is on clean, modern design and robust, scalable code.</p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>We offer a range of services including UI/UX Design, Web Development, and Brand Strategy to help your business succeed online.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <p>Check out some of our recent projects that showcase our skills and creativity.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have a project in mind? We'd love to hear from you. Reach out to us to get started.</p>
+                <a href="mailto:hello@designco.com" class="btn">Email Us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>&copy; 2025 DesignCo. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
