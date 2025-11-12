@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Flip Card</title>
+    
+    <!-- Importing Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This container sets the 3D perspective -->
+    <div class="flip-card-container">
+        <!-- This is the element that will be flipped -->
+        <article class="flip-card">
+            
+            <!-- The Front Face of the Card -->
+            <div class="flip-card-front">
+                <img src="https://placehold.co/300x200/007bff/ffffff?text=Frontend" alt="Abstract blue and white design" class="card-image">
+                <h3>Frontend Development</h3>
+                <p>Hover to learn more</p>
+            </div>
+            
+            <!-- The Back Face of the Card -->
+            <div class="flip-card-back">
+                <h3>Our Expertise</h3>
+                <p>We create responsive, high-performance websites using modern technologies like HTML5, CSS3, and JavaScript frameworks.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+        </article>
+    </div>
+
+</body>
+</html>
